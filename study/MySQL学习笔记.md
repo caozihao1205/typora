@@ -73,11 +73,11 @@ mysql> show tables;  //要先选中某个数据库use db_name;
 
 #### 1.整数类型
 
-![image-20230213190607129](D:\AppData\Typora\typora-user-images\image-20230213190607129.png)
+![image-20230213190607129](https://cdn.jsdelivr.net/gh/caozihao1205/blog_img/img/202306041725873.png)
 
 #### 2.浮点数类型和定点数类型
 
-MySQL数据库中使用浮点数和定点数来存储小数。浮点数的类型有两种：单精度浮点数类型（FLOAT)和双精度浮点数类型（DOUBLE)。而定点数类型只有一种即DECIMAL类型。下图列举了 MySQL中浮点数和定点数类型所对应的字节大小及其取值范围：![image-20230213190812427](D:\AppData\Typora\typora-user-images\image-20230213190812427.png)
+MySQL数据库中使用浮点数和定点数来存储小数。浮点数的类型有两种：单精度浮点数类型（FLOAT)和双精度浮点数类型（DOUBLE)。而定点数类型只有一种即DECIMAL类型。下图列举了 MySQL中浮点数和定点数类型所对应的字节大小及其取值范围：![image-20230213190812427](https://cdn.jsdelivr.net/gh/caozihao1205/blog_img/img/202306041725875.png)
 
 从上图中可以看出：DECIMAL类型的取值范围与DOUBLE类型相同。但是，请注意：DECIMAL类型的有效取值范围是由M和D决定的。其中，M表示的是数据的长 度，D表示的是小数点后的长度。比如，将数据类型为DECIMAL(6,2)的数据6.5243 插人数据库后显示的结果为6.52
 
@@ -86,19 +86,19 @@ MySQL数据库中使用浮点数和定点数来存储小数。浮点数的类型
 在MySQL中常用CHAR 和 VARCHAR 表示字符串。两者不同的是：VARCHAR存储可变长度的字符串。
 **当数据为CHAR(M)类型时，不管插入值的长度是实际是多少它所占用的存储空间都是M个字节；而VARCHAR(M)所对应的数据所占用的字节数为实际长度加1**
 
-![image-20230213190932452](D:\AppData\Typora\typora-user-images\image-20230213190932452.png)
+![image-20230213190932452](https://cdn.jsdelivr.net/gh/caozihao1205/blog_img/img/202306041725876.png)
 
 #### 4.文本类型
 
 文本类型用于表示大文本数据，例如，文章内容、评论、详情等，它的类型分为如下4种：
 
-![image-20230213191047575](D:\AppData\Typora\typora-user-images\image-20230213191047575.png)
+![image-20230213191047575](https://cdn.jsdelivr.net/gh/caozihao1205/blog_img/img/202306041725877.png)
 
 #### 5.日期与时间类型
 
 
 
-![image-20230213191138428](D:\AppData\Typora\typora-user-images\image-20230213191138428.png)
+![image-20230213191138428](https://cdn.jsdelivr.net/gh/caozihao1205/blog_img/img/202306041725878.png)
 
 ##### 1.YEAR类型
 
@@ -134,7 +134,7 @@ TIMESTAMP类型用于表示日期和时间，它的显示形式与DATETIME相同
 
 在MySQL中常用BLOB存储二进制类型的数据，例如：图片、PDF文档等。
 
-![image-20230213191609996](D:\AppData\Typora\typora-user-images\image-20230213191609996.png)
+![image-20230213191609996](https://cdn.jsdelivr.net/gh/caozihao1205/blog_img/img/202306041725879.png)
 
 ### 2.创建表
 
@@ -186,7 +186,7 @@ not null 非空，字段的值不能为空  格式：字段名 数据类型 NOT 
 unique 唯一可以为空
 ```
 
-![image-20230213193128717](D:\AppData\Typora\typora-user-images\image-20230213193128717.png)
+![image-20230213193128717](https://cdn.jsdelivr.net/gh/caozihao1205/blog_img/img/202306041725880.png)
 
 **主键约束**
 
