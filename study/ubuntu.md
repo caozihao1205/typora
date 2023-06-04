@@ -28,7 +28,7 @@ ls 相关常用命令:
 
 5.`ll w.txt a.txt`显示特定文件或者文件夹
 
-![image-20230505142614091](D:\AppData\Typora\typora-user-images\image-20230505142614091.png)
+![image-20230505142614091](https://cdn.jsdelivr.net/gh/caozihao1205/blog_img/img/202306041624151.png)
 
 cd 相关常用命令:
 `cd 目录名` 切换到对应目录下
@@ -88,7 +88,7 @@ chmod 相关常用命令:
 
 用法: `chmod   [u|g|o|a]   [=|+|-]   [r|w|x]`   文件名
 
-![img](https://sphard.com/ebooks/linux/8.png)
+![8](https://cdn.jsdelivr.net/gh/caozihao1205/blog_img/img/202306041631864.png)
 
 r = 4 = 读取属性
 w = 2 = 写入属性
@@ -96,7 +96,7 @@ x = 1 = 执行属性
 
 -无
 
-![image-20230505150308099](D:\AppData\Typora\typora-user-images\image-20230505150308099.png)
+![image-20230505150308099](https://cdn.jsdelivr.net/gh/caozihao1205/blog_img/img/202306041624152.png)
 
 **VSCode : vscode-remote下无法写入文件及linux文件读写权限**
 
