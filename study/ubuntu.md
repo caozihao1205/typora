@@ -146,3 +146,10 @@ ls 命令一般用于查看文件和目录的信息，包括文件和目录权�
 
 `du -h path`
 
+- Ubuntu系统中的wget命令 [here](https://blog.csdn.net/weixin_43786241/article/details/105559712?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168664146016800180628677%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=168664146016800180628677&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-105559712-null-null.142^v88^control,239^v2^insert_chatgpt&utm_term=ubuntu%20wget&spm=1018.2226.3001.4187)
+
+最基础：`wget  https://github.com/fchollet/deep-learning-models/releases/download/v0.7/inception_resnet_v2_weights_tf_dim_ordering_tf_kernels_notop.h5`
+
+上述从网络下载一个文件并保存在当前目录，在下载的过程中会显示进度条，包含（下载完成百分比，已经下载的字节，当前下载速度，剩余下载时间）。
+
+- tar命令：Linux下的解压与压缩命令 [here](https://blog.csdn.net/oqqHuTu12345678/article/details/70162387?ops_request_misc=&request_id=&biz_id=102&utm_term=tar&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-9-70162387.142^v88^control,239^v2^insert_chatgpt&spm=1018.2226.3001.4187)
